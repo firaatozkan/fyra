@@ -1,0 +1,38 @@
+BasedOnStyle: Microsoft
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+BreakBeforeBraces: Allman
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+ColumnLimit: 0
+AccessModifierOffset: -4
+
+NamespaceIndentation: None
+FixNamespaceComments: true
+
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: true
+
+BreakConstructorInitializers: BeforeColon
+ConstructorInitializerIndentWidth: 4
+
+AlignAfterOpenBracket: Align
+AlignOperands: Align
+AlignConsecutiveAssignments: None
+AlignConsecutiveDeclarations: None
+
+BinPackArguments: true
+BinPackParameters: true
+
+AlwaysBreakTemplateDeclarations: Yes
+
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
